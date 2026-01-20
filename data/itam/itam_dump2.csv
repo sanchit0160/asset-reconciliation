@@ -1,0 +1,201 @@
+itam_id,hostname,region,department,environment,ip_address
+3200001,fo-usa-ny-it-db-01,Foreign Offices,USA,PROD,10.40.1.1
+3200002,fo-usa-ny-fin-app-01,Foreign Offices,USA,UAT,10.40.1.2
+3200003,fo-usa-ny-ops-web-01,Foreign Offices,USA,DEV,10.40.1.3
+3200004,fo-usa-chi-it-db-01,Foreign Offices,USA,PROD,10.40.2.1
+3200005,fo-usa-chi-fin-app-01,Foreign Offices,USA,UAT,10.40.2.2
+3200006,fo-usa-chi-hr-web-01,Foreign Offices,USA,DEV,10.40.2.3
+3200007,fo-uk-lon-it-db-01,Foreign Offices,UK,PROD,10.41.1.1
+3200008,fo-uk-lon-fin-app-01,Foreign Offices,UK,UAT,10.41.1.2
+3200009,fo-uk-lon-ops-web-01,Foreign Offices,UK,DEV,10.41.1.3
+3200010,fo-uk-man-it-db-01,Foreign Offices,UK,PROD,10.41.2.1
+3200011,fo-uk-man-fin-app-01,Foreign Offices,UK,UAT,10.41.2.2
+3200012,fo-uk-man-hr-web-01,Foreign Offices,UK,DEV,10.41.2.3
+3200013,fo-sg-sin-it-db-01,Foreign Offices,SINGAPORE,PROD,10.42.1.1
+3200014,fo-sg-sin-fin-app-01,Foreign Offices,SINGAPORE,UAT,10.42.1.2
+3200015,fo-sg-sin-ops-web-01,Foreign Offices,SINGAPORE,DEV,10.42.1.3
+3200016,fo-uae-dxb-it-db-01,Foreign Offices,UAE,PROD,10.43.1.1
+3200017,fo-uae-dxb-fin-app-01,Foreign Offices,UAE,UAT,10.43.1.2
+3200018,fo-uae-dxb-ops-web-01,Foreign Offices,UAE,DEV,10.43.1.3
+3200019,fo-uae-auh-it-db-01,Foreign Offices,UAE,PROD,10.43.2.1
+3200020,fo-uae-auh-fin-app-01,Foreign Offices,UAE,UAT,10.43.2.2
+3200021,fo-uae-auh-hr-web-01,Foreign Offices,UAE,DEV,10.43.2.3
+3200022,fo-au-syd-it-db-01,Foreign Offices,AUSTRALIA,PROD,10.44.1.1
+3200023,fo-au-syd-fin-app-01,Foreign Offices,AUSTRALIA,UAT,10.44.1.2
+3200024,fo-au-syd-ops-web-01,Foreign Offices,AUSTRALIA,DEV,10.44.1.3
+3200025,fo-au-mel-it-db-01,Foreign Offices,AUSTRALIA,PROD,10.44.2.1
+3200026,fo-au-mel-fin-app-01,Foreign Offices,AUSTRALIA,UAT,10.44.2.2
+3200027,fo-au-mel-hr-web-01,Foreign Offices,AUSTRALIA,DEV,10.44.2.3
+3200028,fo-de-fra-it-db-01,Foreign Offices,GERMANY,PROD,10.45.1.1
+3200029,fo-de-fra-fin-app-01,Foreign Offices,GERMANY,UAT,10.45.1.2
+3200030,fo-de-fra-ops-web-01,Foreign Offices,GERMANY,DEV,10.45.1.3
+3200031,fo-jp-tok-it-db-01,Foreign Offices,JAPAN,PROD,10.46.1.1
+3200032,fo-jp-tok-fin-app-01,Foreign Offices,JAPAN,UAT,10.46.1.2
+3200033,fo-jp-tok-ops-web-01,Foreign Offices,JAPAN,DEV,10.46.1.3
+3200034,fo-fr-par-it-db-01,Foreign Offices,FRANCE,PROD,10.47.1.1
+3200035,fo-fr-par-fin-app-01,Foreign Offices,FRANCE,UAT,10.47.1.2
+3200036,fo-fr-par-ops-web-01,Foreign Offices,FRANCE,DEV,10.47.1.3
+3200037,fo-ca-tor-it-db-01,Foreign Offices,CANADA,PROD,10.48.1.1
+3200038,fo-ca-tor-fin-app-01,Foreign Offices,CANADA,UAT,10.48.1.2
+3200039,fo-ca-tor-ops-web-01,Foreign Offices,CANADA,DEV,10.48.1.3
+3200040,fo-usa-ny-it-db-02,Foreign Offices,USA,PROD,10.40.3.1
+3200041,fo-usa-ny-fin-app-02,Foreign Offices,USA,UAT,10.40.3.2
+3200042,fo-usa-ny-ops-web-02,Foreign Offices,USA,DEV,10.40.3.3
+3200043,fo-uk-lon-it-db-02,Foreign Offices,UK,PROD,10.41.3.1
+3200044,fo-uk-lon-fin-app-02,Foreign Offices,UK,UAT,10.41.3.2
+3200045,fo-uk-lon-ops-web-02,Foreign Offices,UK,DEV,10.41.3.3
+3200046,fo-sg-sin-it-db-02,Foreign Offices,SINGAPORE,PROD,10.42.2.1
+3200047,fo-sg-sin-fin-app-02,Foreign Offices,SINGAPORE,UAT,10.42.2.2
+3200048,fo-sg-sin-ops-web-02,Foreign Offices,SINGAPORE,DEV,10.42.2.3
+3200049,fo-uae-dxb-it-db-02,Foreign Offices,UAE,PROD,10.43.3.1
+3200050,fo-uae-dxb-fin-app-02,Foreign Offices,UAE,UAT,10.43.3.2
+3200051,fo-au-syd-it-db-02,Foreign Offices,AUSTRALIA,PROD,10.44.3.1
+3200052,fo-au-syd-fin-app-02,Foreign Offices,AUSTRALIA,UAT,10.44.3.2
+3200053,fo-de-fra-it-db-02,Foreign Offices,GERMANY,PROD,10.45.2.1
+3200054,fo-de-fra-fin-app-02,Foreign Offices,GERMANY,UAT,10.45.2.2
+3200055,fo-jp-tok-it-db-02,Foreign Offices,JAPAN,PROD,10.46.2.1
+3200056,fo-jp-tok-fin-app-02,Foreign Offices,JAPAN,UAT,10.46.2.2
+3200057,fo-fr-par-it-db-02,Foreign Offices,FRANCE,PROD,10.47.2.1
+3200058,fo-fr-par-fin-app-02,Foreign Offices,FRANCE,UAT,10.47.2.2
+3200059,fo-ca-tor-it-db-02,Foreign Offices,CANADA,PROD,10.48.2.1
+3200060,fo-ca-tor-fin-app-02,Foreign Offices,CANADA,UAT,10.48.2.2
+3200061,fo-usa-chi-it-db-02,Foreign Offices,USA,PROD,10.40.4.1
+3200062,fo-uk-man-it-db-02,Foreign Offices,UK,PROD,10.41.4.1
+3200063,fo-au-mel-it-db-02,Foreign Offices,AUSTRALIA,PROD,10.44.4.1
+3200064,fo-uae-auh-it-db-02,Foreign Offices,UAE,PROD,10.43.4.1
+3200065,fo-sg-sin-hr-db-01,Foreign Offices,SINGAPORE,PROD,10.42.3.1
+3200066,fo-usa-ny-hr-db-01,Foreign Offices,USA,PROD,10.40.5.1
+3200067,fo-uk-lon-hr-db-01,Foreign Offices,UK,PROD,10.41.5.1
+3200068,fo-de-fra-hr-db-01,Foreign Offices,GERMANY,PROD,10.45.3.1
+3200069,fo-jp-tok-hr-db-01,Foreign Offices,JAPAN,PROD,10.46.3.1
+3200070,fo-fr-par-hr-db-01,Foreign Offices,FRANCE,PROD,10.47.3.1
+3200071,fo-ca-tor-hr-db-01,Foreign Offices,CANADA,PROD,10.48.3.1
+3200072,fo-au-syd-hr-db-01,Foreign Offices,AUSTRALIA,PROD,10.44.5.1
+3200073,fo-uae-dxb-hr-db-01,Foreign Offices,UAE,PROD,10.43.5.1
+3200074,fo-sg-sin-fin-db-01,Foreign Offices,SINGAPORE,PROD,10.42.4.1
+3200075,fo-usa-ny-fin-db-01,Foreign Offices,USA,PROD,10.40.6.1
+3200076,fo-uk-lon-fin-db-01,Foreign Offices,UK,PROD,10.41.6.1
+3200077,fo-de-fra-fin-db-01,Foreign Offices,GERMANY,PROD,10.45.4.1
+3200078,fo-jp-tok-fin-db-01,Foreign Offices,JAPAN,PROD,10.46.4.1
+3200079,fo-fr-par-fin-db-01,Foreign Offices,FRANCE,PROD,10.47.4.1
+3200080,fo-ca-tor-fin-db-01,Foreign Offices,CANADA,PROD,10.48.4.1
+3200081,fo-au-mel-fin-db-01,Foreign Offices,AUSTRALIA,PROD,10.44.6.1
+3200082,fo-uae-auh-fin-db-01,Foreign Offices,UAE,PROD,10.43.6.1
+3200083,fo-sg-sin-ops-db-01,Foreign Offices,SINGAPORE,PROD,10.42.5.1
+3200084,fo-usa-chi-ops-db-01,Foreign Offices,USA,PROD,10.40.7.1
+3200085,fo-uk-man-ops-db-01,Foreign Offices,UK,PROD,10.41.7.1
+3200086,fo-au-syd-ops-db-01,Foreign Offices,AUSTRALIA,PROD,10.44.7.1
+3200087,fo-de-fra-ops-db-01,Foreign Offices,GERMANY,PROD,10.45.5.1
+3200088,fo-jp-tok-ops-db-01,Foreign Offices,JAPAN,PROD,10.46.5.1
+3200089,fo-fr-par-ops-db-01,Foreign Offices,FRANCE,PROD,10.47.5.1
+3200090,fo-ca-tor-ops-db-01,Foreign Offices,CANADA,PROD,10.48.5.1
+3200091,fo-uae-dxb-ops-db-01,Foreign Offices,UAE,PROD,10.43.7.1
+3200092,fo-sg-sin-it-api-01,Foreign Offices,SINGAPORE,UAT,10.42.6.1
+3200093,fo-usa-ny-it-api-01,Foreign Offices,USA,UAT,10.40.8.1
+3200094,fo-uk-lon-it-api-01,Foreign Offices,UK,UAT,10.41.8.1
+3200095,fo-au-syd-it-api-01,Foreign Offices,AUSTRALIA,UAT,10.44.8.1
+3200096,fo-de-fra-it-api-01,Foreign Offices,GERMANY,UAT,10.45.6.1
+3200097,fo-jp-tok-it-api-01,Foreign Offices,JAPAN,UAT,10.46.6.1
+3200098,fo-fr-par-it-api-01,Foreign Offices,FRANCE,UAT,10.47.6.1
+3200099,fo-ca-tor-it-api-01,Foreign Offices,CANADA,UAT,10.48.6.1
+3200100,fo-uae-auh-it-api-01,Foreign Offices,UAE,UAT,10.43.8.1
+3100001,lho-up-lko-it-db-01,LHO - Lucknow,UTTAR PRADESH,PROD,10.20.1.1
+3100002,lho-up-knp-hr-app-01,LHO - Kanpur,UTTAR PRADESH,UAT,10.20.1.2
+3100003,lho-up-lko-fin-web-01,LHO - Lucknow,UTTAR PRADESH,DEV,10.20.1.3
+3100004,lho-mh-mum-it-db-01,LHO - Mumbai,MAHARASHTRA,PROD,10.21.1.1
+3100005,lho-mh-mum-fin-app-01,LHO - Mumbai,MAHARASHTRA,UAT,10.21.1.2
+3100006,lho-mh-pun-hr-web-01,LHO - Pune,MAHARASHTRA,DEV,10.21.1.3
+3100007,lho-dl-del-it-db-01,LHO - Delhi,DELHI,PROD,10.22.1.1
+3100008,lho-dl-del-fin-app-01,LHO - Delhi,DELHI,UAT,10.22.1.2
+3100009,lho-dl-del-ops-web-01,LHO - Delhi,DELHI,DEV,10.22.1.3
+3100010,lho-ka-blr-it-db-01,LHO - Bengaluru,KARNATAKA,PROD,10.23.1.1
+3100011,lho-ka-blr-fin-app-01,LHO - Bengaluru,KARNATAKA,UAT,10.23.1.2
+3100012,lho-ka-mys-hr-web-01,LHO - Mysuru,KARNATAKA,DEV,10.23.1.3
+3100013,lho-tn-che-it-db-01,LHO - Chennai,TAMIL NADU,PROD,10.24.1.1
+3100014,lho-tn-che-fin-app-01,LHO - Chennai,TAMIL NADU,UAT,10.24.1.2
+3100015,lho-tn-cbe-ops-web-01,LHO - Coimbatore,TAMIL NADU,DEV,10.24.1.3
+3100016,lho-wb-kol-it-db-01,LHO - Kolkata,WEST BENGAL,PROD,10.25.1.1
+3100017,lho-wb-kol-fin-app-01,LHO - Kolkata,WEST BENGAL,UAT,10.25.1.2
+3100018,lho-wb-kol-hr-web-01,LHO - Kolkata,WEST BENGAL,DEV,10.25.1.3
+3100019,lho-gj-ahm-it-db-01,LHO - Ahmedabad,GUJARAT,PROD,10.26.1.1
+3100020,lho-gj-ahm-fin-app-01,LHO - Ahmedabad,GUJARAT,UAT,10.26.1.2
+3100021,lho-gj-ahm-ops-web-01,LHO - Ahmedabad,GUJARAT,DEV,10.26.1.3
+3100022,lho-rj-jai-it-db-01,LHO - Jaipur,RAJASTHAN,PROD,10.27.1.1
+3100023,lho-rj-jai-fin-app-01,LHO - Jaipur,RAJASTHAN,UAT,10.27.1.2
+3100024,lho-rj-jai-hr-web-01,LHO - Jaipur,RAJASTHAN,DEV,10.27.1.3
+3100025,lho-pb-chd-it-db-01,LHO - Chandigarh,PUNJAB,PROD,10.28.1.1
+3100026,lho-pb-chd-fin-app-01,LHO - Chandigarh,PUNJAB,UAT,10.28.1.2
+3100027,lho-pb-chd-ops-web-01,LHO - Chandigarh,PUNJAB,DEV,10.28.1.3
+3100028,lho-mp-bpl-it-db-01,LHO - Bhopal,MADHYA PRADESH,PROD,10.29.1.1
+3100029,lho-mp-bpl-fin-app-01,LHO - Bhopal,MADHYA PRADESH,UAT,10.29.1.2
+3100030,lho-mp-bpl-hr-web-01,LHO - Bhopal,MADHYA PRADESH,DEV,10.29.1.3
+3100031,lho-up-lko-it-db-02,LHO - Lucknow,UTTAR PRADESH,PROD,10.20.2.1
+3100032,lho-up-knp-fin-app-02,LHO - Kanpur,UTTAR PRADESH,UAT,10.20.2.2
+3100033,lho-up-lko-ops-web-02,LHO - Lucknow,UTTAR PRADESH,DEV,10.20.2.3
+3100034,lho-mh-mum-it-db-02,LHO - Mumbai,MAHARASHTRA,PROD,10.21.2.1
+3100035,lho-mh-pun-fin-app-02,LHO - Pune,MAHARASHTRA,UAT,10.21.2.2
+3100036,lho-mh-pun-ops-web-02,LHO - Pune,MAHARASHTRA,DEV,10.21.2.3
+3100037,lho-dl-del-it-db-02,LHO - Delhi,DELHI,PROD,10.22.2.1
+3100038,lho-dl-del-fin-app-02,LHO - Delhi,DELHI,UAT,10.22.2.2
+3100039,lho-dl-del-hr-web-02,LHO - Delhi,DELHI,DEV,10.22.2.3
+3100040,lho-ka-blr-it-db-02,LHO - Bengaluru,KARNATAKA,PROD,10.23.2.1
+3100041,lho-ka-blr-fin-app-02,LHO - Bengaluru,KARNATAKA,UAT,10.23.2.2
+3100042,lho-ka-mys-ops-web-02,LHO - Mysuru,KARNATAKA,DEV,10.23.2.3
+3100043,lho-tn-che-it-db-02,LHO - Chennai,TAMIL NADU,PROD,10.24.2.1
+3100044,lho-tn-cbe-fin-app-02,LHO - Coimbatore,TAMIL NADU,UAT,10.24.2.2
+3100045,lho-tn-cbe-ops-web-02,LHO - Coimbatore,TAMIL NADU,DEV,10.24.2.3
+3100046,lho-wb-kol-it-db-02,LHO - Kolkata,WEST BENGAL,PROD,10.25.2.1
+3100047,lho-wb-kol-fin-app-02,LHO - Kolkata,WEST BENGAL,UAT,10.25.2.2
+3100048,lho-wb-kol-ops-web-02,LHO - Kolkata,WEST BENGAL,DEV,10.25.2.3
+3100049,lho-gj-ahm-it-db-02,LHO - Ahmedabad,GUJARAT,PROD,10.26.2.1
+3100050,lho-gj-ahm-fin-app-02,LHO - Ahmedabad,GUJARAT,UAT,10.26.2.2
+2990001,gitc-blr-fin-db-01,GITC - Belapur,FINANCE,PROD,10.10.10.1
+2990002,gitc-blr-fin-app-01,GITC - Belapur,FINANCE,UAT,10.10.10.2
+2990003,gitc-blr-fin-web-01,GITC - Belapur,FINANCE,DEV,10.10.10.3
+2990004,gitc-blr-fin-rpt-01,GITC - Belapur,FINANCE,PROD,10.10.10.4
+2990005,gitc-blr-fin-api-01,GITC - Belapur,FINANCE,UAT,10.10.10.5
+2990006,gitc-blr-dev-db-01,GITC - Belapur,DEV OPS,PROD,10.10.11.1
+2990007,gitc-blr-dev-app-01,GITC - Belapur,DEV OPS,UAT,10.10.11.2
+2990008,gitc-blr-dev-web-01,GITC - Belapur,DEV OPS,DEV,10.10.11.3
+2990009,gitc-blr-dev-api-01,GITC - Belapur,DEV OPS,PROD,10.10.11.4
+2990010,gitc-blr-dev-core-01,GITC - Belapur,DEV OPS,UAT,10.10.11.5
+2990011,gitc-blr-sec-db-01,GITC - Belapur,SECURITY,PROD,10.10.12.1
+2990012,gitc-blr-sec-app-01,GITC - Belapur,SECURITY,UAT,10.10.12.2
+2990013,gitc-blr-sec-web-01,GITC - Belapur,SECURITY,DEV,10.10.12.3
+2990014,gitc-blr-sec-api-01,GITC - Belapur,SECURITY,PROD,10.10.12.4
+2990015,gitc-blr-sec-core-01,GITC - Belapur,SECURITY,UAT,10.10.12.5
+2990016,gitc-blr-core-db-01,GITC - Belapur,CORE BANKING,PROD,10.10.13.1
+2990017,gitc-blr-core-app-01,GITC - Belapur,CORE BANKING,UAT,10.10.13.2
+2990018,gitc-blr-core-web-01,GITC - Belapur,CORE BANKING,DEV,10.10.13.3
+2990019,gitc-blr-core-api-01,GITC - Belapur,CORE BANKING,PROD,10.10.13.4
+2990020,gitc-blr-core-rpt-01,GITC - Belapur,CORE BANKING,UAT,10.10.13.5
+2990021,gitc-blr-pay-db-01,GITC - Belapur,PAYMENTS,PROD,10.10.14.1
+2990022,gitc-blr-pay-app-01,GITC - Belapur,PAYMENTS,UAT,10.10.14.2
+2990023,gitc-blr-pay-web-01,GITC - Belapur,PAYMENTS,DEV,10.10.14.3
+2990024,gitc-blr-pay-api-01,GITC - Belapur,PAYMENTS,PROD,10.10.14.4
+2990025,gitc-blr-pay-core-01,GITC - Belapur,PAYMENTS,UAT,10.10.14.5
+2990026,gitc-blr-risk-db-01,GITC - Belapur,RISK,PROD,10.10.15.1
+2990027,gitc-blr-risk-app-01,GITC - Belapur,RISK,UAT,10.10.15.2
+2990028,gitc-blr-risk-web-01,GITC - Belapur,RISK,DEV,10.10.15.3
+2990029,gitc-blr-risk-api-01,GITC - Belapur,RISK,PROD,10.10.15.4
+2990030,gitc-blr-risk-rpt-01,GITC - Belapur,RISK,UAT,10.10.15.5
+2990031,gitc-blr-audit-db-01,GITC - Belapur,AUDIT,PROD,10.10.16.1
+2990032,gitc-blr-audit-app-01,GITC - Belapur,AUDIT,UAT,10.10.16.2
+2990033,gitc-blr-audit-web-01,GITC - Belapur,AUDIT,DEV,10.10.16.3
+2990034,gitc-blr-audit-api-01,GITC - Belapur,AUDIT,PROD,10.10.16.4
+2990035,gitc-blr-audit-rpt-01,GITC - Belapur,AUDIT,UAT,10.10.16.5
+2990036,gitc-blr-ops-db-01,GITC - Belapur,IT OPS,PROD,10.10.17.1
+2990037,gitc-blr-ops-app-01,GITC - Belapur,IT OPS,UAT,10.10.17.2
+2990038,gitc-blr-ops-web-01,GITC - Belapur,IT OPS,DEV,10.10.17.3
+2990039,gitc-blr-ops-api-01,GITC - Belapur,IT OPS,PROD,10.10.17.4
+2990040,gitc-blr-ops-core-01,GITC - Belapur,IT OPS,UAT,10.10.17.5
+2990041,gitc-blr-fin-db-02,GITC - Belapur,FINANCE,PROD,10.10.18.1
+2990042,gitc-blr-fin-app-02,GITC - Belapur,FINANCE,UAT,10.10.18.2
+2990043,gitc-blr-dev-db-02,GITC - Belapur,DEV OPS,DEV,10.10.18.3
+2990044,gitc-blr-sec-db-02,GITC - Belapur,SECURITY,PROD,10.10.18.4
+2990045,gitc-blr-core-db-02,GITC - Belapur,CORE BANKING,PROD,10.10.18.5
+2990046,gitc-blr-pay-db-02,GITC - Belapur,PAYMENTS,UAT,10.10.18.6
+2990047,gitc-blr-risk-db-02,GITC - Belapur,RISK,DEV,10.10.18.7
+2990048,gitc-blr-audit-db-02,GITC - Belapur,AUDIT,PROD,10.10.18.8
+2990049,gitc-blr-ops-db-02,GITC - Belapur,IT OPS,UAT,10.10.18.9
+2990050,gitc-blr-dev-core-02,GITC - Belapur,DEV OPS,PROD,10.10.18.10

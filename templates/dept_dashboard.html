@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- ================= HEADER ================= -->
+<div class="d-flex justify-content-between align-items-start mb-4 flex-wrap gap-2">
+  <div>
+    <h4 class="mb-1">
+      {{ region }} – {{ department }} – PIMS Integration Dashboard
+    </h4>
+    <small class="text-muted">Overview of integrated and pending servers</small>
+  </div>
+
+  <span class="badge bg-secondary fs-6">{{ department }}</span>
+</div>
+
+<!-- ================= SUMMARY ================= -->
+<div class="row g-3 mb-4">
+  <div class="col-md-4">
+    <div class="card border-success shadow-sm text-center">
+      <div class="card-body">
+        <small class="text-muted">Integrated</small>
+        <h3 class="text-success mb-0">{{ integrated|length }}</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-warning shadow-sm text-center">
+      <div class="card-body">
+        <small class="text-muted">Pending</small>
+        <h3 class="text-warning mb-0">{{ pending|length }}</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-secondary shadow-sm text-center">
+      <div class="card-body">
+        <small class="text-muted">Total</small>
+        <h3 class="mb-0">{{ integrated|length + pending|length }}</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PENDING ================= -->
+<div class="d-flex justify-content-between align-items-center mb-2">
+  <h5 class="text-warning mb-0">⏳ Pending / Not Integrated</h5>
+  <button class="btn btn-sm btn-outline-primary"
+          onclick="exportTable('pendingTable', '{{ department }}_pending')">
+    Export CSV
+  </button>
+</div>
+
+{% if pending %}
+<div class="table-responsive mb-5">
+<table class="table table-bordered table-hover align-middle" id="pendingTable">
+  <thead class="table-warning text-nowrap">
+    <tr>
+      <th>ITAM ID</th>
+      <th>Hostname</th>
+      <th>Region</th>
+      <th>Department</th>
+      <th>Environment</th>
+      <th>IP Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in pending %}
+    <tr>
+      <td class="text-nowrap">{{ s.itam_id }}</td>
+      <td class="text-break">{{ s.hostname }}</td>
+      <td class="text-nowrap">{{ s.region }}</td>
+      <td class="text-nowrap">{{ s.department }}</td>
+      <td>
+        <span class="badge
+          {% if s.environment == 'PROD' %}bg-danger
+          {% elif s.environment == 'UAT' %}bg-warning text-dark
+          {% else %}bg-secondary{% endif %}">
+          {{ s.environment }}
+        </span>
+      </td>
+      <td class="text-nowrap">{{ s.ip_address }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<div class="alert alert-success mb-5">✅ No pending servers</div>
+{% endif %}
+
+<!-- ================= INTEGRATED ================= -->
+<div class="d-flex justify-content-between align-items-center mb-2">
+  <h5 class="text-success mb-0">✅ Integrated Servers</h5>
+  <button class="btn btn-sm btn-outline-success"
+          onclick="exportTable('integratedTable', '{{ department }}_integrated')">
+    Export CSV
+  </button>
+</div>
+
+{% if integrated %}
+<div class="table-responsive mb-5">
+<table class="table table-striped table-bordered align-middle" id="integratedTable">
+  <thead class="table-success text-nowrap">
+    <tr>
+      <th>ITAM ID</th>
+      <th>Hostname</th>
+      <th>Region</th>
+      <th>Department</th>
+      <th>Environment</th>
+      <th>IP Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in integrated %}
+    <tr>
+      <td class="text-nowrap">{{ s.itam_id }}</td>
+      <td class="text-break">{{ s.hostname }}</td>
+      <td class="text-nowrap">{{ s.region }}</td>
+      <td class="text-nowrap">{{ s.department }}</td>
+      <td class="text-nowrap">{{ s.environment }}</td>
+      <td class="text-nowrap">{{ s.ip_address }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<div class="alert alert-info mb-5">ℹ No integrated servers yet</div>
+{% endif %}
+
+<!-- ================= EXPORT SCRIPT ================= -->
+<script>
+function getTimestamp() {
+  const d = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  return (
+    d.getFullYear() +
+    pad(d.getMonth() + 1) +
+    pad(d.getDate()) + "_" +
+    pad(d.getHours()) +
+    pad(d.getMinutes()) +
+    pad(d.getSeconds())
+  );
+}
+
+function exportTable(tableId, baseName) {
+  const table = document.getElementById(tableId);
+  if (!table) return;
+
+  const timestamp = getTimestamp();
+  const filename = `${baseName}_${timestamp}.csv`;
+
+  let csv = [];
+  table.querySelectorAll("tr").forEach(row => {
+    let cols = row.querySelectorAll("th, td");
+    let rowData = [];
+    cols.forEach(col => {
+      rowData.push('"' + col.innerText.replace(/"/g, '""') + '"');
+    });
+    csv.push(rowData.join(","));
+  });
+
+  const blob = new Blob([csv.join("\n")], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+
+{% endblock %}

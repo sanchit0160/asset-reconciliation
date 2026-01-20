@@ -1,0 +1,4 @@
+hostname,ip_address,department,environment
+fin-db-01,10.10.1.1,FINANCE,PROD
+fin-app-02,10.10.1.2,FINANCE,UAT
+it-web-01,10.20.1.1,IT OPS,PROD
